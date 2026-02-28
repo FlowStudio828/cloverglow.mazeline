@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazeline - FlowStudio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .game-title {
+            font-size: 36px;
+            color: #2e7d32;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .game-title-en {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .game-subtitle {
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .game-subtitle-en {
+            font-size: 13px;
+            color: #777;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            margin-bottom: 25px;
+        }
+        .info-section h3 {
+            font-size: 18px;
+            color: #2e7d32;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #c8e6c9;
+        }
+        .info-section h3 span {
+            display: block;
+            font-size: 12px;
+            color: #888;
+            margin-top: 4px;
+        }
+        .info-item {
+            margin: 8px 0;
+        }
+        .info-text {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .info-text-en {
+            font-size: 12px;
+            color: #888;
+            line-height: 1.4;
+        }
+        @media (max-width: 500px) {
+            .container {
+                padding: 25px;
+            }
+            .game-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="game-title">Mazeline</h1>
+    <div class="game-title-en">Mazeline</div>
+    <p class="game-subtitle">FlowStudio 创造的跳舞的线同人饭制游戏</p>
+    <p class="game-subtitle-en">A Dancing Line fanmade created by FlowStudio</p>
+    <!-- 关于 -->
+    <div class="info-section">
+        <h3>关于：<span>About</span></h3>
+        <div class="info-item">
+            <div class="info-text">开发者：FlowStudio</div>
+            <div class="info-text-en">Developer: FlowStudio</div>
+        </div>
+    </div>
+
+    <!-- 自定义栏目1：更新公告（无英文） -->
+    <div class="info-section">
+        <h3>更新公告：<span>Update Announcement</span></h3>
+        <div class="info-item">
+            <div class="info-text">暂无更新公告，敬请期待</div>
+        </div>
+    </div>
+
+    <!-- 自定义栏目2：游戏简介（冰焰，英文IceFlame无and） -->
+    <div class="info-section">
+        <h3>游戏简介：<span>Game Introduction</span></h3>
+        <div class="info-item">
+            <div class="info-text">MazeLine是一款cloverglow使用冰焰模版430改制作的跳舞的线饭制游戏</div>
+            <div class="info-text-en">MazeLine is a fanmade game of Dancing Line revamped with the IceFlame Template 430 by cloverglow.</div>
+        </div>
+    </div>
+
+    <!-- 联系我们 -->
+    <div class="info-section">
+        <h3>联系我们：<span>Contact Us</span></h3>
+        <div class="info-item">
+            <div class="info-text">官方 QQ 群：1034994919 </div>
+            <div class="info-text-en">Official QQ Group: 1034994919 </div>
+        </div>
+        <div class="info-item">
+            <div class="info-text">客服 QQ 号：1640616503</div>
+            <div class="info-text-en">Support QQ: 1640616503</div>
+        </div>
+    </div>
+
+    <!-- 游戏下载：纯文字提示 -->
+    <div class="info-section">
+        <h3>游戏下载：<span>Game Download</span></h3>
+        <div class="info-item">
+            <div class="info-text">前往 QQ 群下载</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
